@@ -1,7 +1,7 @@
 const month = document.querySelector(".inner-month");
 const fulldate = document.querySelector(".inner-data");
 const datesDiv = document.querySelector(".dates");
-const months = ["January","February","March","April","May","June","July","Auguest","September","October","November","December"];
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 const dateSys = new Date;
 month.innerText = months[dateSys.getMonth()];
